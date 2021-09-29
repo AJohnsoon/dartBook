@@ -6,8 +6,8 @@ void main() {
     optional param
   */
   Person person = new Person();
-  person.name = "Allan";
-  person.year = 28;
+  person.name = "AJohnsoon";
+  person.year = 29;
   person.cpf = "123.456.789-00";
   person.rg = "1.234.789";
   person.status = "Married";
