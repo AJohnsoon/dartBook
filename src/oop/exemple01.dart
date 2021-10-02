@@ -14,4 +14,7 @@ void main() {
   person.haveChildren = true;
   person.makeBirthday();
   print(person);
+
+  Person baby = new Person.wekeUp("Theo", 1);
+  print("Baby Year: ${baby.year} ");
 }
