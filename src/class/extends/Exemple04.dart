@@ -13,15 +13,13 @@ class Dog extends Animal {
 }
 
 class Cat extends Animal {
-  Cat(name, weight, type) : super(name, weight, type);
-  int cutness = 0;
+  late int cutness;
+  Cat(name, weight, type, this.cutness) : super(name, weight, type);
 
   void forFun() {
     cutness += 10;
-    print("Cutness ${getName} up to ${cutness}");
+    print("${getName} cutness up to ${cutness}");
   }
 
-  void Cute() {
-    print("${getName} is cute");
-  }
+  void Cute() => print("${getName} is cute");
 }

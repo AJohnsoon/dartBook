@@ -6,10 +6,11 @@ void main() {
   dogin.animalEat();
   dogin.wagTail();
   print(dogin);
-  print("____________________________________________________");
-  print("____________________________________________________");
 
-  Cat catin = new Cat('Meowt', 3.5, 'Cat');
+  print("____________________________________________________");
+  print("____________________________________________________ \n");
+
+  Cat catin = new Cat('Meowt', 3.5, 'Cat', 30);
   catin.forFun();
   catin.forFun();
   catin.Cute();

@@ -13,25 +13,17 @@ class Animal {
     print("${_name} ate !");
   }
 
-  void animalSleep() {
-    print("${_name} slept");
-  }
+  void animalSleep() => print("${_name} slept");
 
-  String get getName {
-    return this._name;
-  }
+  String get getName => this._name;
 
-  double get getWeight {
-    return this._weight;
-  }
+  double get getWeight => this._weight;
 
   String get getType {
     return this._type;
   }
 
-  set setName(String name) {
-    this._name = name;
-  }
+  set setName(String name) => this._name = name;
 
   @override
   String toString() {
