@@ -1,6 +1,5 @@
 {
     "scripts": {
-        "start": "dart run src/oop/exemple03.dart",
-        "dev":  "dart run src/oop/exemple04.dart"
+        "dev":  "dart run src/index.dart"
     }
 }
