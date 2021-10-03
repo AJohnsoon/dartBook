@@ -1,7 +1,7 @@
 import '../class/extends/Exemple04.dart';
 
 void main() {
-  Dog dogin = new Dog('Dogin', 5.5, 'Dog');
+  Dog dogin = new Dog('Dogin', 5.5, '');
   dogin.Yap();
   dogin.animalEat();
   dogin.wagTail();
@@ -15,6 +15,7 @@ void main() {
   catin.forFun();
   catin.Cute();
   catin.animalSleep();
+  catin.Yap();
   print(catin);
   catin.setName = "Catin Meowt";
   print(catin.getName);

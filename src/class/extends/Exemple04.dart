@@ -3,23 +3,34 @@ import '../Exemple04.dart';
 class Dog extends Animal {
   Dog(name, weight, type) : super(name, weight, type);
 
-  void Yap() {
-    print("Au au! aaaarg");
-  }
-
   void wagTail() {
     print("${getName} wag the tail! ");
+  }
+
+  @override
+  void Yap() {
+    print("${getName} says: Au au! aaaarg");
   }
 }
 
 class Cat extends Animal {
-  late int cutness;
-  Cat(name, weight, type, this.cutness) : super(name, weight, type);
+  late int _cutness;
+  Cat(name, weight, type, this._cutness) : super(name, weight, type);
 
   void forFun() {
-    cutness += 10;
-    print("${getName} cutness up to ${cutness}");
+    _cutness += 10;
+    print("${getName} cutness up to ${_cutness}");
   }
 
+  int get getCutness => this._cutness;
+
   void Cute() => print("${getName} is cute");
+
+  @override
+  void Yap() => print("${getName} says: meeeeauwwwot !!");
+
+  @override
+  String toString() {
+    return "Name: ${getName}, Weight: ${getWeight}, Type: ${getType}, Cute: ${getCutness}";
+  }
 }

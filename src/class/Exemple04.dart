@@ -7,6 +7,10 @@ class Animal {
     this._name = name;
     this._weight = weight;
     this._type = type;
+
+    if (_type == '') {
+      _type = "Animal";
+    }
   }
 
   void animalEat() {
@@ -24,6 +28,8 @@ class Animal {
   }
 
   set setName(String name) => this._name = name;
+
+  void Yap() => print("sound ! aaaarg");
 
   @override
   String toString() {
