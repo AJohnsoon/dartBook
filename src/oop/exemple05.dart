@@ -1,8 +1,8 @@
-import '../class/exemplo05.dart';
+import '../class/Exemple05.dart';
 
 dynamic mainExemple05() {
   final exemple = Exemple.value;
-  const exempleConstFinal = "how is the differ between Final and Const";
+  const exempleConstFinal = "What is the differ between Final and Const";
   print(exemple);
   print(Exemple.Diff(exempleConstFinal));
 

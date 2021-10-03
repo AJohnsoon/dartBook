@@ -7,8 +7,8 @@ dynamic mainExemple04() {
   dogin.wagTail();
   print(dogin);
 
-  print("____________________________________________________");
-  print("____________________________________________________ \n");
+  print(">>>>>>>>>>>>>>>>>>>");
+  print("<<<<<<<<<<<<<<<<<<< \n");
 
   Cat catin = new Cat('Meowt', 3.5, 'Cat', 30);
   catin.forFun();

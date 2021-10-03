@@ -16,7 +16,7 @@ void main() {
   print("___________________________________________________________________");
   print("Exemple 04: Inheritance");
   mainExemple04();
-  print("Exemple 05: Abstract Class - how differ between CONST / FINAL ");
   print("___________________________________________________________________");
+  print("Exemple 05: Abstract Class - what's differ between CONST / FINAL ");
   mainExemple05();
 }
