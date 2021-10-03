@@ -1,6 +1,6 @@
 import '../class/Exemple03.dart';
 
-void main() {
+dynamic mainExemple03() {
   Person person = new Person("AJohnsoon", 30, 'Married', true);
   person.makeBirthday();
   print(person);

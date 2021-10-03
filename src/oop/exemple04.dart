@@ -1,6 +1,6 @@
 import '../class/extends/Exemple04.dart';
 
-void main() {
+dynamic mainExemple04() {
   Dog dogin = new Dog('Dogin', 5.5, '');
   dogin.Yap();
   dogin.animalEat();

@@ -1,6 +1,6 @@
 import '../class/Exemple01.dart';
 
-void main() {
+void mainExemple01() {
   /*
     in dart 'new' for stance a object is
     optional param

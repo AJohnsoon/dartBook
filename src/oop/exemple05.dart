@@ -1,6 +1,6 @@
 import '../class/exemplo05.dart';
 
-void main() {
+dynamic mainExemple05() {
   final exemple = Exemple.value;
   const exempleConstFinal = "how is the differ between Final and Const";
   print(exemple);

@@ -1,6 +1,6 @@
 import '../class/Exemple02.dart';
 
-void main() {
+void mainExemple02() {
   Person person = new Person("AJohnsoon", 28, 'Married', true);
   person.makeBirthday();
   print(person);
