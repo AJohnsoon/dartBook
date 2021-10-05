@@ -5,6 +5,7 @@ import 'oop/exemple04.dart';
 import 'oop/exemple05.dart';
 
 void main() {
+  print("___________________________________________________________________");
   print("Exemple 01: Introduction POO");
   mainExemple01();
   print("___________________________________________________________________");
@@ -19,4 +20,5 @@ void main() {
   print("___________________________________________________________________");
   print("Exemple 05: Abstract Class - what's differ between CONST / FINAL ");
   mainExemple05();
+  print("___________________________________________________________________");
 }
