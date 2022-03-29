@@ -25,11 +25,15 @@ class Person {
   }
 
   void canTalk() {
-    print("${name} say:  'Helo world'! ");
+    print("${name} say:  'See you later'! ");
   }
 
   void makeBirthday() {
     year++;
+  }
+
+  String sayHello() {
+    return "${name} says:  Hello World";
   }
 
   String toString() {
