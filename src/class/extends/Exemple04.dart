@@ -34,3 +34,11 @@ class Cat extends Animal {
     return "Name: ${getName}, Weight: ${getWeight}, Type: ${getType}, Cute: ${getCutness}";
   }
 }
+
+class Bird extends Animal {
+  Bird(name, weight, type) : super(name, weight, type);
+  void Flying() => print("I beliave >>Fly<<");
+
+  @override
+  String toString() => "Name: ${getName} | Type: ${getType}";
+}

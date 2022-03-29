@@ -7,8 +7,7 @@ dynamic mainExemple04() {
   dogin.wagTail();
   print(dogin);
 
-  print(">>>>>>>>>>>>>>>>>>>");
-  print("<<<<<<<<<<<<<<<<<<< \n");
+  print(">>>>>>>>>>>>>>>>>>> \n");
 
   Cat catin = new Cat('Meowt', 3.5, 'Cat', 30);
   catin.forFun();
@@ -19,4 +18,11 @@ dynamic mainExemple04() {
   print(catin);
   catin.setName = "Catin Meowt";
   print(catin.getName);
+
+  print("<<<<<<<<<<<<<<<<<<< \n");
+
+  final bird = new Bird('Larry Bird', 1.3, '');
+  bird.Flying();
+  print(bird);
+  print(bird.getName);
 }
